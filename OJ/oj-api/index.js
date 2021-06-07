@@ -25,5 +25,5 @@ app.get('/', function (req, res) {
 });
 
 app.listen(6000, function () {
-  console.log('Node API listening on port 3090!')
+  console.log('Node API listening on port 6000!')
 });

@@ -5,7 +5,9 @@
 
     "ojApi": {
         "url":"http://localhost:6000",
-        "defaultApiKey":"8988339e-616b-412e-98c2-b93eb004d4e0"
+        "defaultApiKey":"8988339e-616b-412e-98c2-b93eb004d4e0",
+        "username": "ojApi",
+        "password": "test"
     },
     "apiInterval": {
         "apiWaitingInterval": 30

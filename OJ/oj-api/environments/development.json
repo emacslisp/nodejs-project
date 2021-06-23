@@ -11,5 +11,15 @@
     },
     "apiInterval": {
         "apiWaitingInterval": 30
+    },
+    "mongodb": {
+        "uri": "mongodb://localhost:27017/vocus-one?connectTimeoutMS=600000&socketTimeoutMS=600000",
+        "ttl": 1209600,
+        "server": {
+          "socketOptions": {
+            "keepAlive": 300000,
+            "connectTimeoutMS": 45000
+          }
+        }
     }
 }

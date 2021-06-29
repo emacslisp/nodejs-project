@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta content="UTF-8">
+  <title>live data example</title>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+  <ul>
+    <li ng-repeat="item in arr">
+      <p>{{item.id}}</p>
+      <p>{{item.author}}</p>
+      <p>{{item.title}}</p>
+      <p>{{item.body}}</p>
+    </li>
+  </ul>
+</body>

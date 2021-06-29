@@ -29,11 +29,12 @@ let UserSchema = new Schema({
 });
 
 UserSchema.pre('save', function (next) {
-
+    console.log('call UserSchema.pre save function');
 });
 
 UserSchema.post('validate', function () {
     // SanitiseService.sanitiseModel(this);
+    console.log('call UserSchema.post save validate');
 });
 
 module.exports = {

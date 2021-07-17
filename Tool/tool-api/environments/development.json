@@ -1,0 +1,25 @@
+{
+    "queueRedis": {
+        "url": "redis://localhost:6379"
+    },
+
+    "ojApi": {
+        "url":"http://localhost:6000",
+        "defaultApiKey":"8988339e-616b-412e-98c2-b93eb004d4e0",
+        "username": "ojApi",
+        "password": "test"
+    },
+    "apiInterval": {
+        "apiWaitingInterval": 30
+    },
+    "mongodb": {
+        "uri": "mongodb://localhost:27017/vocus-one?connectTimeoutMS=600000&socketTimeoutMS=600000",
+        "ttl": 1209600,
+        "server": {
+          "socketOptions": {
+            "keepAlive": 300000,
+            "connectTimeoutMS": 45000
+          }
+        }
+    }
+}

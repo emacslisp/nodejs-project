@@ -1,0 +1,13 @@
+{
+    "queueRedis": {
+        "url": "redis://localhost:6379"
+    },
+
+    "ojApi": {
+        "url":"http://localhost:6000",
+        "defaultApiKey":"8988339e-616b-412e-98c2-b93eb004d4e0"
+    },
+    "apiInterval": {
+        "apiWaitingInterval": 30
+    }
+}
